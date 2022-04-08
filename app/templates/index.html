@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML-App</title>
+    <link rel="stylesheet" type="text/css" href="static/css/app.css">
+</head>
+
+<body>
+    <div class="banner">
+        <nav>
+            <ul>
+                <li>
+                    <a href="{{ url_for('home') }}">HOME</a>
+                </li>
+                <li>
+                    <a href="#about">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#upload file">DETECT</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Plant Monitoring and Disease Detection</h1>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos officia enim earum, sit aut, nam dignissimos nihil fuga ea pariatur illum nemo molestias impedit aliquam eum? Et animi eaque qui!
+            </span>
+        </header>
+
+    </div>
+
+    <div id="about">
+        <h3>ABOUT</h3>
+        <p>
+            Food security for billions of people on earth requires minimizing crop damage by timely detection of diseases.Developing methods for detection of plant diseases serves the dual purpose of increasing crop yield and reducing pesticide use without knowing
+            about the proper disease. Along with development of better crop varieties, disease detection is thus paramount goal for achieving food security. The traditional method of disease detection has been to use manual examination by either farmers
+            or experts, which can be time consuming and costly, proving infeasible for millions of small and medium sized farms around the world
+        </p>
+    </div>
+    <div class="main">
+
+        <form id="upload file" action="/success" method="post" enctype="multipart/form-data">
+            <h1>TEST YOUR PLANTS</h1>
+            <h2>Upload Image here</h2>
+            <div class="uploads">
+                <input class="btn-upload" type="file" name="file" id="upload" accept="image/*">
+            </div>
+            <div>
+                <button type="submit" class="btn" id="btn-predict" value="Upload">Predict</button>
+            </div>
+
+
+
+    </div>
+    </div>
+    </form>
+
+    <!-- test -->
+
+    <div class="loader"></div>
+
+    <h3 id="result">
+        <span> </span>
+    </h3>
+
+    <div class="footer">
+        &copy;2022
+        <p>Project Created By |Pankaj Nidhi | Jatin More | Sarvesh Patil</p>
+        <p>Project Guidance By Prof.Praveen Barapatre</p>
+        <!-- ui structure -->
+    </div>
+    </div>
+</body>
+
+</html>

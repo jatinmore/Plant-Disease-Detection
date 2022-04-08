@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    background: url('https://images.unsplash.com/photo-1636525653613-2a3a05c00759?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35rem;
+    background-size: cover;
+}
+
+nav ul {
+    display: flex;
+    font-weight: 700;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+    /* border: 1px solid black; */
+    border-bottom: 1px solid white;
+    list-style-type: none;
+    /* background: black; */
+}
+
+li a {
+    /* border: 1px solid black; */
+    padding: 1rem;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    /* margin-top: 10rem; */
+    color: white;
+    padding: 10rem;
+}
+
+header span {
+    font-weight: 400;
+    text-align: center;
+    padding: 8rem;
+}
+
+#about {
+    height: 20rem;
+    text-align: center;
+    padding: 5rem;
+    /* width: 50rem; */
+    /* margin-left: 15rem; */
+    border: 1px solid black;
+    line-height: 2.5rem;
+}
+
+.btn-upload {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: black;
+    color: white;
+}
+
+.btn {
+    padding: 1rem;
+    border-radius: 0.2rem;
+    background: black;
+    color: white;
+    outline: none;
+    width: 8rem;
+    border: none;
+}
+
+.uploads {
+    padding: 1rem;
+    margin-right: 5rem;
+    align-items: center;
+    width: 18rem;
+}
+
+.main {
+    padding: 5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* margin: 1rem; */
+    background: transparent;
+    /* height: 25rem; */
+    line-height: 4rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* position: fixed; */
+    color: white;
+    bottom: 0;
+    background: black;
+    height: 5rem;
+    width: 100%;
+}
+
+.container {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.container img {
+    width: 20rem;
+    height: 20rem;
+}

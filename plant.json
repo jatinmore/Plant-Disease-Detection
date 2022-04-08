@@ -1,0 +1,155 @@
+{
+    "0": {
+        "name": "Apple",
+        "dec": "apple Scabe"
+    },
+    "1": {
+        "name": "Apple",
+        "dec": "Black_rot"
+    },
+    "2": {
+        "name": "Apple",
+        "dec": "Cedar apple rust"
+    },
+    "3": {
+        "name": "Apple",
+        "dec": "healthy"
+    },
+    "4": {
+        "name": "Blueberry",
+        "dec": "Healthy"
+    },
+    "5": {
+        "name": "Cherry_(including_sour)",
+        "dec": "Powdery_mildew"
+    },
+    "6": {
+        "name": "Cherry",
+        "dec": "healthy"
+    },
+    "7": {
+        "name": "Corn_(maize)",
+        "dec": "Cercospora_leaf_spot Gray_leaf_spot"
+    },
+    "8": {
+        "name": "Corn_(maize)",
+        "dec": "Common rust"
+    },
+    "9": {
+        "name": "Corn_(maize)",
+        "dec": "healthy"
+    },
+    "10": {
+        "name": "Corn_(maize)",
+        "dec": "Northern Leaf Blight"
+    },
+    "11": {
+        "name": "Grape",
+        "dec": "Black rot"
+    },
+    "12": {
+        "name": "Grape",
+        "dec": "Esca(Black_Measles)"
+    },
+    "13": {
+        "name": "Grape",
+        "dec": "healthy"
+    },
+    "14": {
+        "name": "Grape",
+        "dec": "Leaf blight_(Isariopsis_Leaf_Spot)"
+    },
+    "15": {
+        "name": "Orange",
+        "dec": "Haunglongbing_(Citrus_greening)"
+    },
+    "16": {
+        "name": "Peach",
+        "dec": "Bacterial_spot"
+    },
+    "17": {
+        "name": "Peach",
+        "dec": "healthy"
+    },
+    "18": {
+        "name": "Pepper bell",
+        "dec": "Bacterial spot"
+    },
+    "19": {
+        "name": "Pepper bell",
+        "dec": "healthy"
+    },
+    "20": {
+        "name": "Potato",
+        "dec": "Early_blight"
+    },
+    "21": {
+        "name": "Potato",
+        "dec": "healthy"
+    },
+    "22": {
+        "name": "Potato",
+        "dec": "Late_blight"
+    },
+    "23": {
+        "name": "Raspberry",
+        "dec": "healthy"
+    },
+    "24": {
+        "name": "Soybean",
+        "dec": "healthy"
+    },
+    "25": {
+        "name": "Squash",
+        "dec": "Powdery_mildew"
+    },
+    "26": {
+        "name": "Strawberry",
+        "dec": "healthy"
+    },
+    "27": {
+        "name": "Strawberry",
+        "dec": "Leaf_scorch"
+    },
+    "28": {
+        "name": "Tomato",
+        "dec": "Bacterial_spot"
+    },
+    "29": {
+        "name": "Tomato",
+        "dec": "Early_blight"
+    },
+    "30": {
+        "name": "Tomato",
+        "dec": "healthy"
+    },
+    "31": {
+        "name": "Tomato",
+        "dec": "Late_blight"
+    },
+    "32": {
+        "name": "Tomato",
+        "dec": "_Leaf_Mold"
+    },
+    "33": {
+        "name": "Tomato",
+        "dec": "Septoria_leaf_spot"
+    },
+    "34": {
+        "name": "Tomato",
+        "dec": "Spider_mites Two-spotted_spider_mite"
+    },
+    "35": {
+        "name": "Tomato",
+        "dec": "Target_Spot"
+    },
+    "36": {
+        "name": "Tomato",
+        "dec": "Tomato_mosaic_virus"
+    },
+    "37": {
+        "name": "Tomato",
+        "dec": "Tomato_Yellow_Leaf_Curl_Virus"
+    }
+
+}
