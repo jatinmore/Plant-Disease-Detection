@@ -26,12 +26,33 @@
 </div>
 
 </div>
-<div class="output">
+
+<div class="output prediction">
     <h3>
         <span>PREDICTION:</span>{{prediction}}
     </h3>
 
 </div>
+<div class="sk-chase">
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+    <div class="sk-chase-dot"></div>
+</div>
+<script>
+    var loading = document.querySelector('.sk-chase')
+    var output = document.querySelector('.prediction')
 
+    // setTimeout(output.style.display = 'block',
+    //     loading.style.display = 'none')
+    setTimeout(
+        function() {
+            output.style.display = 'block'
+            loading.style.display = 'none'
+        }, 5000
+    )
+</script>
 
 </html>
